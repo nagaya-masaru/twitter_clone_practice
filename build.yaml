@@ -4,13 +4,12 @@ targets:
       json_serializable:
         options:
           any_map: false
-          checked: true  # デフォルトから変更
+          checked: true
           create_factory: true
           create_to_json: true
           disallow_unrecognized_keys: false
           explicit_to_json: false
-          field_rename: snake # デフォルトから変更
+          field_rename: snake
           generic_argument_factories: false
           ignore_unannotated: false
           include_if_null: true
-          nullable: true
